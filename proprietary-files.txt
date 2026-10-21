@@ -315,6 +315,9 @@ vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|34718fcf0dd5d3d30e
 # DRM
 vendor/lib64/liboemcrypto.so
 
+# Face unlock - V14.0.9.0.TKFEUXM-release-keys
+product/app/MiuiBiometric3389/MiuiBiometric3389.apk:vendor/etc/faceunlock/resources.zip|1795a0a1c823c341561bd38d98d0a4691fe74853
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fortsense.so:vendor/lib64/hw/fingerprint.fortsense.sm6150.so;FIX_SONAME
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so;FIX_SONAME
